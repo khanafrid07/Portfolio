@@ -1,0 +1,11 @@
+.responsive-card {
+  flex: 1 1 300px; /* Grow, shrink, base width */
+  min-width: 310px; /* Stop shrinking below this */
+  max-width: 460px; /* Optional max width */
+  transition: all 0.3s ease;
+}
+@media (max-width: 400px) {
+  .responsive-card {
+    min-width: 100%;  /* take full width */
+  }
+}
