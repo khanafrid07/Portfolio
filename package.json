@@ -2,7 +2,7 @@
   "name": "afrid",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://khanafrid07.github.io/Portfolio",
+  "homepage": "https://khanafrid07.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
