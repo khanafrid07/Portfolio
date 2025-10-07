@@ -14,7 +14,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Link } from 'react-scroll'; 
+import { Link } from 'react-scroll';
 
 const pages = [
   { name: 'About', id: 'about' },
@@ -51,24 +51,24 @@ function Navbar() {
           {/* Logo */}
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <Link to='home' smooth={true} duration={500}>
-            
-            
-            <Typography
-          
-              variant="h6"
-              sx={{
-                fontFamily: 'monospace',
-                fontWeight: 800,
-                fontSize: "xx-large",
-                color: 'white',
-                letterSpacing: '.2rem',
-                cursor: 'pointer',
-                textAlign:{xs:"center", sm: "left"},
-                
-              }}
-            >
-              Afrid Khan
-            </Typography>
+
+
+              <Typography
+
+                variant="h6"
+                sx={{
+                  fontFamily: 'monospace',
+                  fontWeight: 800,
+                  fontSize: "xx-large",
+                  color: 'white',
+                  letterSpacing: '.2rem',
+                  cursor: 'pointer',
+                  textAlign: { xs: "center", sm: "left" },
+
+                }}
+              >
+                Afrid Khan
+              </Typography>
             </Link>
 
           </Box>
@@ -105,8 +105,8 @@ function Navbar() {
                     style={{
                       cursor: 'pointer',
                       textDecoration: 'none',
-                      color: 'white', 
-                      width: '100%', 
+                      color: 'white',
+                      width: '100%',
                     }}
                   >
                     {page.name}
@@ -134,20 +134,21 @@ function Navbar() {
             ))}
           </Box>
 
-          
-          <Box sx={{ display: {xs: "none", sm: "flex"} }}>
-            <IconButton>
-              <InstagramIcon sx={{ color: 'white', fontSize: {xs: "1.5rem", sm: "1.8rem"} }} />
+
+          <Box sx={{ display: { xs: "none", sm: "flex" } }}>
+            <IconButton href="https://github.com/khanafrid07" component="a" target='_blank' rel="noopener noreferrer">
+              <GitHubIcon sx={{ color: 'white', fontSize: { xs: "1.5rem", sm: "1.8rem" } }} />
             </IconButton>
             <IconButton>
-              <FacebookIcon sx={{ color: 'white', fontSize: {xs: "1.5rem", sm: "1.8rem"} }} />
+              <InstagramIcon sx={{ color: 'white', fontSize: { xs: "1.5rem", sm: "1.8rem" } }} />
             </IconButton>
             <IconButton>
-              <XIcon sx={{ color: 'white', fontSize: {xs: "1.5rem", sm: "1.8rem"} }} />
+              <FacebookIcon sx={{ color: 'white', fontSize: { xs: "1.5rem", sm: "1.8rem" } }} />
             </IconButton>
             <IconButton>
-              <GitHubIcon sx={{ color: 'white', fontSize: {xs: "1.5rem", sm: "1.8rem"} }} />
+              <XIcon sx={{ color: 'white', fontSize: { xs: "1.5rem", sm: "1.8rem" } }} />
             </IconButton>
+
           </Box>
         </Toolbar>
       </Container>

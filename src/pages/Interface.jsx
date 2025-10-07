@@ -55,7 +55,7 @@ export default function Interface() {
           {/* Buttons */}
           <Stack direction="row" spacing={2} className="buttonStack">
             <Link to='projects' smooth={true} offset={-70} duration={500}>
-            <Button className="btn" href='' endIcon={<DriveFileMoveOutlineIcon />}>Projects</Button>
+            <Button className="btn"  endIcon={<DriveFileMoveOutlineIcon />}>Projects</Button>
             </Link>
             <Link to='contacts' smooth={true} duration={500} offset={-70}> 
             <Button className="btn" endIcon={<ContactMailIcon />}>Contact</Button>

@@ -2,6 +2,7 @@
 import CertificateCard from "../components/CertificateCard"
 import hackerRankLogo from "../assets/hackerrank.svg"
 import codeCampLogo from "../assets/codeCamp.svg"
+import soloLearn from "../assets/soloLearn.svg"
  export  default function Certificate(){
     return(
         <>
@@ -20,9 +21,9 @@ import codeCampLogo from "../assets/codeCamp.svg"
         }}>
             
 
-        <CertificateCard title="HackerRank - JavaScript" desc={"Issued by HackerRank"} imgIco={hackerRankLogo} caption={"Issued Date :  October 2025"}/>
-        <CertificateCard title="HackerRank - JavaScript" desc={"Issued by HackerRank"} imgIco={codeCampLogo} caption={"Issued Date :  October 2025"}/>
-        <CertificateCard title="HackerRank - JavaScript" desc={"Issued by HackerRank"} imgIco={hackerRankLogo} caption={"Issued Date :  October 2025"}/>
+        <CertificateCard title="HackerRank - JavaScript" desc={"Issued By: HackerRank"} imgIco={hackerRankLogo} caption={"Issued Date :  September 2025"} downloadLink={"/Portfolio/hackerRankCertificate.pdf"} link="https://www.hackerrank.com/certificates/a6e4155d2d77"/>
+        <CertificateCard title="Responsive Web Design" desc={"Issued By: freeCodeCamp"} imgIco={codeCampLogo} caption={"Issued Date :  October 2025"} downloadLink={"/Portfolio/codeCamp.pdf"} link="https://www.freecodecamp.org/certification/khanafrid03/responsive-web-design"/>
+        <CertificateCard title="Web Development" desc={"Issued By: Sololearn"} imgIco={soloLearn} caption={"Issued Date :  October 2025"}/>
 
         </Box>
         
